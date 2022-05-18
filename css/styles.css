@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+
+    
+}
+
+.containerContact{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.contactH2{
+    text-align: center;
+    padding: 20px;
+}
+
+.labelForm{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.inputForm{
+    width: 100%;
+}
+
+.mapContact{
+    display:block;
+    margin:auto;
+    
+}
+.containerMaps{
+    grid-area: map;
+    padding: 20px;
+}
+.form{
+    grid-area: form;
+    padding: 20px;  
+}
+.footer_info{
+    grid-area: footer;
+    display: flex;
+    background: #1a1c20;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_left_container {
+    
+    color: #eeeeee;
+}
+
+.containerRight{
+    
+    color: #eeeeee;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info div{
+    padding: 5px;
+}
+
+.footer_copyright{
+    grid-area: copyright;
+}
+
+.footer_copyright section{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionTable{
+    padding: 40px;
+}
+
+
+.headerMenu{
+    grid-area: header;
+    display: flex;
+    background-color: #ffffff;
+    position: sticky;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #e7e9eb;
+    top: 0;
+    
+}
+
+.menu li{
+    text-align: center;
+}
+
+.menu li:hover{
+    background: rgb(214, 206, 206);
+    color: #ffffff;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.nav ul{
+   width: 80vw; 
+   align-content: center;
+
+}
+
+
+.headerMenu img{
+    padding: 20px
+}
+
+ul
+    
+    {
+    list-style: none;
+    font-size: 0;
+    }
+li{
+    display: inline-block;
+    width: 15%;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: #034986;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    
+
+}
+
+.containerBlog{
+    padding: 50px;
+}
+
+.imgBlog{
+    display:block;
+    margin:auto;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.pBlog{
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+
+.slider{
+    background-image: url(/img/2-1.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h2{
+    color: #034986;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;   
+}
+
+.containerBlock{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+    
+    
+.Block1{
+    background-color: #dcf2fc;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.containerProduct{
+    width: 33%;
+    padding: 30px;
+}
+
+.containerProductRow{
+    display: flex;
+}
+
+.imgProduct{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.h2Product{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.price{
+    color: rgb(27, 196, 35);
+    font-weight: 600;
+    padding-top:10px;
+
+}
+
+.AddToCart{
+    background-color: #034986;
+    margin-top: 10px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.mainPolicy{
+    padding: 50px;
+}
+
+.gridPadreContact{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "form map"
+    "footer footer"
+    "copyright copyright"
+    ;
+    column-gap: 20px;
+}
+
+.containerBlog{
+    padding: 50px;
+    display: grid;
+    grid-gap: 10px;
+    
+    grid-template-areas: 
+    "titleBlog titleBlog"
+    "p1 p1"
+    "h2A imgBlog"
+    "p2 imgBlog"
+    "h2B h2C"
+    "p3 specifications";
+ 
+}
+
+.titleBlog{
+    grid-area: titleBlog;
+}
+
+.p1{
+    grid-area: p1;
+}
+
+.h2A{
+    grid-area: h2A;
+}
+
+.p2{
+    grid-area: p2;
+}
+
+.imgBlog{
+    grid-area: imgBlog;
+    
+}
+
+.h2B{
+    grid-area: h2B;
+}
+
+.p3{
+    grid-area: p3;
+}
+
+.h2C{
+    grid-area: h2C;
+}
+
+.specifications{
+    grid-area: specifications;
+}
+
+
+.text_area{
+    width: 100%;
+}
+
+.homeSubtitle{
+    grid-area: homeSubtitle;
+    padding: 20px;
+}
+
+.hometext1{
+    grid-area: hometext1;
+    padding: 10px;
+}
+
+.hometext2{
+    grid-area: hometext2;
+    padding: 10px;
+}
+
+.area1{
+    grid-area: area1;
+}
+
+.area2{
+    grid-area: area2;
+}
+.area3{
+    grid-area: area3;
+}
+.area4{
+    grid-area: area4;
+}
+
+
+.containerHome{
+    display:grid;
+    grid-template-areas:
+    "homeSubtitle homeSubtitle homeSubtitle homeSubtitle"
+    "hometext1 hometext1 hometext2 hometext2"
+    "hometext1 hometext1 hometext2 hometext2"
+    "area1 area2 area3 area4";
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    .gridPadreContact{
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "form form"
+        "map map"
+        "footer footer"
+        "copyright copyright"
+        ;
+    }
+
+    .containerBlog{
+        grid-template-areas: 
+        "titleBlog"
+        "p1"
+        "h2A"
+        "p2"
+        "imgBlog"
+        "h2B"
+        "p3"
+        "h2C"
+        "specifications";
+    }
+
+    .specifications  {
+        text-align: center;
+    }
+
+    .h2C  {
+        text-align: center;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .headerMenu{
+        display: block;
+    }
+
+    .containerRight{
+        display: none;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .footer_info{
+        display: block;
+    }
+
+    .containerBlog{
+        padding: 10px;
+    }
+
+    .footer_copyright section div{
+        margin: 5px;
+    }
+
+    .containerHome{
+        grid-template-areas:
+        "homeSubtitle"
+        "hometext1"
+        "hometext2"
+        "area1"
+        "area2"
+        "area3"
+        "area4";
+    }
+
+    .slider{
+        background-size: cover;
+        height: 50vh;
+        background-image: center;
+
+    }
+
+    .h2Product{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width:380px){
+    .containerMaps{
+        display: none;
+    }
+
+    .footer_left_container div img {
+        width: 200px;
+    }
+}
