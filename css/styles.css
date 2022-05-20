@@ -92,7 +92,7 @@
     align-items: center;
     border-bottom: 2px solid #e7e9eb;
     top: 0;
-    
+    z-index: 30;
 }
 
 .menu li{
@@ -112,6 +112,13 @@
     align-items: center;
 
     
+}
+
+.menuBootstrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+s
 }
 
 .nav ul{
@@ -193,10 +200,10 @@ h2{
     
 .Block1{
     background-color: #dcf2fc;
-    margin: 10px;
     border-radius: 5px;
     text-align: center;
     padding: 10px;
+   
 }
 
 .containerProduct{
@@ -390,6 +397,8 @@ h2{
 
     .headerMenu{
         display: block;
+        z-index: 30;
+        
     }
 
     .containerRight{
