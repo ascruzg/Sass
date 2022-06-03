@@ -1,5 +1,5 @@
 
-@import "variables", "header", "footer";
+@import "variables", "header", "footer", "maps", "extend", "mixin";
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +9,7 @@
     
 }
 
-.containerContact{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-}
+
 
 .contactH2{
     text-align: center;
@@ -47,16 +43,6 @@
 
 
 
-
-
-
-
-.footer_copyright section{
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .sectionTable{
     padding: 40px;
@@ -92,26 +78,8 @@
 
 
 
-.menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    
-}
-
-.menuBootstrap{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 
-
-
-.headerMenu img{
-    padding: 20px
-}
 
 ul
     
@@ -177,20 +145,23 @@ h2{
     margin-bottom: 40px;
     align-items: center;
 }
-    
-    
-.Block1{
-    background-color: #dcf2fc;
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px;
-   
+
+.headerMenu img{
+    padding: 30px
 }
 
 .containerProduct{
     width: 33%;
     padding: 30px;
 }
+
+    
+
+.Block1 > h4{
+    color: black;
+}
+
+
 
 .containerProductRow{
     display: flex;
@@ -220,9 +191,7 @@ h2{
     color: #ffffff;
 }
 
-.mainPolicy{
-    padding: 50px;
-}
+
 
 .gridPadreContact{
     display: grid;

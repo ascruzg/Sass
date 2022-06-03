@@ -1,0 +1,9 @@
+.mainPolicy{
+    padding: 50px;
+}
+
+.containerContact{
+    @extend .mainPolicy;
+    display: flex;
+    justify-content: space-around;   
+}

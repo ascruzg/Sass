@@ -1,0 +1,15 @@
+$mapbackgrounds: (footerBg:#1a1c20, Bloquesbg:#dcf2fc);
+
+@each $backgrounds, $color in $mapbackgrounds {
+    .#{$backgrounds} {
+        background-color: $color;
+    }
+}
+
+$bloque:(paddingBloque: 10px, radioBloque: 5px);
+
+.Block1{
+    padding: map-get($bloque, paddingBloque );
+    border-radius: map-get($bloque, radioBloque );
+    text-align: center;
+}

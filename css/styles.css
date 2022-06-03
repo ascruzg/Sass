@@ -26,16 +26,41 @@
 .footer_left_container > p, h4 {
   color: #eeeeee; }
 
+.footerBg {
+  background-color: #1a1c20; }
+
+.Bloquesbg {
+  background-color: #dcf2fc; }
+
+.Block1 {
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; }
+
+.mainPolicy, .containerContact {
+  padding: 50px; }
+
+.containerContact {
+  display: flex;
+  justify-content: space-around; }
+
+/*los mixin pueden ser con parametros o sin parametros*/
+/*Mixin sin parametros*/
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.menuBootstrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Cormorant Garamond", serif;
   font-size: 20px; }
-
-.containerContact {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px; }
 
 .contactH2 {
   text-align: center;
@@ -60,12 +85,6 @@
   grid-area: form;
   padding: 20px; }
 
-.footer_copyright section {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-  justify-content: space-between; }
-
 .sectionTable {
   padding: 40px; }
 
@@ -89,19 +108,6 @@
 .menu li:hover {
   background: #d6cece;
   color: #ffffff; }
-
-.menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.menuBootstrap {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.headerMenu img {
-  padding: 20px; }
 
 ul {
   list-style: none;
@@ -154,15 +160,15 @@ h2 {
   margin-bottom: 40px;
   align-items: center; }
 
-.Block1 {
-  background-color: #dcf2fc;
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px; }
+.headerMenu img {
+  padding: 30px; }
 
 .containerProduct {
   width: 33%;
   padding: 30px; }
+
+.Block1 > h4 {
+  color: black; }
 
 .containerProductRow {
   display: flex; }
@@ -185,9 +191,6 @@ h2 {
   margin-top: 10px;
   padding: 10px;
   color: #ffffff; }
-
-.mainPolicy {
-  padding: 50px; }
 
 .gridPadreContact {
   display: grid;

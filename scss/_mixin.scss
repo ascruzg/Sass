@@ -1,0 +1,17 @@
+/*los mixin pueden ser con parametros o sin parametros*/
+/*Mixin sin parametros*/
+
+@mixin ajusteflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+
+.menu{
+    @include ajusteflex;
+}
+
+.menuBootstrap{
+    @include ajusteflex;
+}
+
+
