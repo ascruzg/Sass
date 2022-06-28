@@ -157,11 +157,11 @@ h2{
 
     
 
-.Block1 > h4{
-    color: black;
+
+.fix-block{
+    width: 100%;
+    margin: 0;
 }
-
-
 
 .containerProductRow{
     display: flex;
@@ -308,7 +308,7 @@ h2{
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .gridPadreContact{
         display: grid;
         grid-template-areas:

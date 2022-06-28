@@ -12,4 +12,5 @@ $bloque:(paddingBloque: 10px, radioBloque: 5px);
     padding: map-get($bloque, paddingBloque );
     border-radius: map-get($bloque, radioBloque );
     text-align: center;
+
 }
